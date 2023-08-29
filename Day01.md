@@ -1,3 +1,4 @@
+![Blue Pink Gradient Fashion Banner (1)](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/fc32dd81-dac7-40e4-aee2-80f00c548716)
 Welcome to the kickoff of my 30-day AWS DevOps challenge! Today marks Day 1 of this exciting journey, and I've dived headfirst into the world of AWS by setting up Jenkins on an EC2 instance. Buckle up as I recount my accomplishments, challenges, and lessons from this inaugural day.
 
 Starting Strong: EC2 Instance and SSH
