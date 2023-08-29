@@ -2,4 +2,4 @@
 #30DaysofAWSDEVOPS
 During my 30-day experience in AWS DevOps, I will be detailing the challenges I encountered, how I successfully tackled them, and the valuable lessons I learned along the way.
 
-Day 1 : https://github.com/Jerry24kay/30DaysofAWSDEVOPS/blob/main/Day01.md
+[Day 1:Jenkins Setup on an EC2 Instance]  "(https://github.com/Jerry24kay/30DaysofAWSDEVOPS/blob/main/Day01.md)"
