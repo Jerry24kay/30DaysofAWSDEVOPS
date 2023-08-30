@@ -3,6 +3,8 @@ Welcome back to my 30-day AWS DevOps journey!
 
 On Day 2, I delved into the complex world of Virtual Private Clouds (VPCs) and delved into access control strategies. Here's a concise overview of the day's activities:
 
+
+
 Exploring VPC Components
 
 Day 2 revolved around a comprehensive exploration of VPC components. I examined key elements such as Elastic Load Balancers, public/private subnets, route tables, security groups, Internet gateways, and Network ACLs (NACLs). The aim was to gain hands-on experience with these foundational elements of a secure cloud infrastructure.
