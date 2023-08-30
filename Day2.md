@@ -16,19 +16,25 @@ Crafting a VPC Framework
 Using the AWS console, I meticulously designed a VPC framework to serve as the basis for my experiments. Opting for the "VPC and more" option, I started with the default IPv4 CIDR block and selected two availability zones to further my exploration.
 ![vpc demo](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/3edc50a6-e1a9-45b3-b8b1-daf034bef6ce)
 
+
+
 Overcoming VPC Association Challenges
 
 An initial challenge arose when attempting to associate the newly created VPC with an EC2 instance. After some investigation, it became evident that a region mismatch was causing the issue. Once the regions were synchronized, the problem was resolved.
 
+
+
 Navigating Access Control and Connectivity
 
 My focus then shifted to access control mechanisms. Setting up an EC2 instance within a public subnet, I ensured Python3 was installed and initiated an HTTP server using python3 -m http.server 8000. However, my attempts at establishing a connection were unsuccessful.
-![ec2 launched](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/e7e3a48a-12f2-4b54-be09-76ce878cba13)
+![not reachable again](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/34cf2c4b-b4d9-48db-94b2-fcb2cf78c96e)
 
 Recalling lessons learned on Day 1, I revisited the security group settings and added a custom inbound rule to address the issue.
 ![inbound rule](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/d43fdb95-54a0-47db-8fc1-eccede3ad74b)
 This adjustment led to successful connections and highlighted the integral role of security groups in controlling access.
 ![now reachable](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/2cfb8480-1b6b-4360-91a0-f8015fba961e)
+
+
 
 
 Understanding Access Control Dynamics
