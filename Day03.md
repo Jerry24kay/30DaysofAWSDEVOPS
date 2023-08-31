@@ -1,4 +1,6 @@
 ![3](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/7c32ca8d-34cd-4446-8cfa-4c2197e52e91)
+
+
 Today i will be working on setting up an ec2 instance, then install prestastore on it. Create an rds with mysql and link the db with the instance. 
 
 
@@ -21,6 +23,9 @@ Setting up the EC2 connection. Rembember the EC2 instance we just lanuched. Yeah
 
 DB Created successfully
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/c0136919-e3fa-48db-a4b3-c93c96210a54)
+
+
+
 
 
 Step 3. Connect to the instance and run updates.  
@@ -55,7 +60,9 @@ Encountered some error during the installation, i had to downgrade the php versi
  
 
 
-Now i can begin the installation of prestastore 
+
+Step 5. Now i can begin the installation of prestastore 
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/0f113b95-11a4-4238-99bf-5ccb42ef82d5)
 
  
@@ -65,6 +72,7 @@ Another error
 
  
 This line of cmd cleared the first error
+
 sudo apt-get install php7.4-intl
  
 For the second error I had to enable the apache mod_rewrite module for url rewriting and enable it in the conf as well.
@@ -103,6 +111,7 @@ So i logged into the ec2 instance using ssh
  
 
 Finally we have our store. 
- ![Uploading image.png…]()
+![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/044920a5-e6e3-43ca-9f63-d95c6218a8d9)
+
 
 
