@@ -4,3 +4,4 @@ During my 30-day experience in AWS DevOps, I will be detailing the challenges I 
 
 [Day 1: Jenkins Setup on an EC2 Instance](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/blob/main/Day01.md)
 [Day 2: VPC Components and Access Control](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/blob/main/Day02.md)
+[Day 3: EC2, PrestaShop, and RDS Integration](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/blob/main/Day03.md)
