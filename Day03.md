@@ -42,9 +42,11 @@ Using Putty and the generated key pair, I established an SSH connection to my EC
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/deb7cffa-556e-42f9-9d2d-bcdb3db1144c)
 
 Installed Apache2
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/5e75181b-a93a-418f-9ec5-36e9bcbe0f8b)
 
 Enabled the service 
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/12520ac2-3d98-4aee-bbb6-b418909028eb)
 
 
@@ -56,6 +58,7 @@ To facilitate the installation of PrestaShop, I needed PHP and specific extensio
 
 
 After some setup, I downloaded PrestaShop from their GitHub repository, unzipped it, and adjusted permissions.
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/713299f0-767b-46e7-810d-ff108eb8d682)
  
 
@@ -63,6 +66,7 @@ After some setup, I downloaded PrestaShop from their GitHub repository, unzipped
  
 
 permissions changed
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/8f36c247-40f8-4230-ad55-a26c843fa429)
  
 
@@ -86,6 +90,7 @@ With PHP sorted, I initiated the PrestaShop installation. Overcoming some minor 
 
  
 Error during installation
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/e83de16d-c490-4ae7-ab2b-6725638432f5)
 
  
@@ -99,6 +104,7 @@ I solved the Error **"Enable the Apache mod_rewrite module" **by enabling it in 
 
 
 Result after the restart of apache2
+
  ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/7e5504c4-2c93-49bb-9094-7eccc4342a96)
 
 
@@ -110,19 +116,23 @@ As the installation progressed, I seamlessly connected PrestaShop with the RDS d
 
 
 Setting up the db and connecting it to my rds instance on aws
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/fff0e96a-4233-4d42-88eb-b729634793fc)
  
 
 Tested the connection
+
  ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/88974cbf-a70b-424a-a259-bc35a9d73b82)
 
 
 Installation in progress. 
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/f2c941e7-0482-47ee-aa64-b2c250d4a039)
 
  
 
 Installation successful
+
  ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/2778581d-138a-475f-9205-941c27d6171f)
 
 
