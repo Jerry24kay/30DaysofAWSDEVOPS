@@ -1,6 +1,6 @@
 ![3](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/7c32ca8d-34cd-4446-8cfa-4c2197e52e91)
 
-**Welcome to Day 3 of my 30-day AWS DevOps Challenge! **
+**Welcome to Day 3 of my 30-day AWS DevOps Challenge!**
 
 Today, I embarked on an exciting journey of setting up an EC2 instance, installing PrestaShop, and creating an RDS database with MySQL—all seamlessly integrated to build a dynamic web application. Let's dive into the step-by-step process:
 
@@ -71,6 +71,7 @@ permissions changed
 
 
 I encountered an initial hiccup—compatibility issues with PHP version 8. I promptly downgraded to PHP 7.4 to ensure a smooth installation process.
+
 ![image](https://github.com/Jerry24kay/30DaysofAWSDEVOPS/assets/54981872/5b5c7a2c-ff57-4bc0-99f7-4b0cb86dbc59)
 
  
